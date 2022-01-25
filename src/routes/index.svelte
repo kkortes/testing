@@ -4,11 +4,14 @@
 
 <script>
 	import Counter from '$lib/Counter.svelte';
+  import { ENVIRONMENT } from '$lib/ENV_VARS';
 </script>
 
 <svelte:head>
 	<title>Home</title>
 </svelte:head>
+
+{ENVIRONMENT}
 
 <section>
 	<h1>
